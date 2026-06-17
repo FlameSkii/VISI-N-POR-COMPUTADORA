@@ -144,3 +144,4 @@ async def analyze_mood(payload: MoodAnalysisRequest):
             status_code=500,
             detail=f"Error en el procesamiento neuronal de la imagen: {err_msg}"
         )
+# Se lograron instalar las dependencias y correr moodmeter
